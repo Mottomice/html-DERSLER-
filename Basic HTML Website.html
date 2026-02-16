@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Website</title>
     <style>
+        *{font-family: Verdana, Geneva, Tahoma, sans-serif;}
         span {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: larger;
         }
 
@@ -60,12 +60,13 @@
         section{
             display: flex;
             justify-content: space-between;
+            border-style: solid;
+            
         }
-        section ul{
-            display: flex;
-            margin:auto
-
-        }
+        
+        
+            
+        
     </style>
 
 </head>
@@ -94,11 +95,57 @@
 
      <section>
 
-            <ul>Projects</ul>
-            <ul>Work Experience</ul>
-            <ul>Education</ul>
+        <Projects>
+            <h2>Projects</h2>
+            <h3>HTML-CSS only Portfolio</h3>
+            <h3>CalculatorS</h3>
+            <h3>Quiz App</h3>
+            <h3>Countdown Timer</h3>
+            <h3>Product Upcoming Page</h3>
+
+        </Projects>
+
+        <Work-Experience>
+            <h2 id="W-experience">Work-Experience</h2>
+            <h3>Roadmap.sh</h3>
+            <li>solved all the Frontend Projects</li>
+            <p><a href="https://github.com/Mottomice"> visit my Profile </a></p>
+            
+            
+        </Work-Experience>
+
+        <Education>
+            <h2> Education</h2>
+            <p> Graduated From Beykent University 2020-2025</p>
+            <p> Courses ı took </p>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artifical Inteligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            
+        </Education>
 
         </section>
+
+        <footer class="footer">
+
+        <div class="footer-social">
+            <h4>Connect With Me</h4>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mehmet-ali-binektas-836a661b0/" class="social-icon">LinkedIn</a>
+                <a href="https://github.com/Mottomice" class="social-icon">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <center><small><p>&copy; 2026 Mehmet Ali | All Rights Reserved.</p></center></small>
+        
+    </div>
+</footer>
 
 </body>
 
